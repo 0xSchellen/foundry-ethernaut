@@ -1,10 +1,11 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.6.0;
+pragma solidity ^0.8.15;
 
-import "@openzeppelin/contracts/math/SafeMath.sol";
+// import "@openzeppelin/openzeppelin-contracts/math/SafeMath.sol";
+
 
 contract Fallback {
-    using SafeMath for uint256;
+    //using SafeMath for uint256;
     mapping(address => uint256) public contributions;
     address payable public owner;
 

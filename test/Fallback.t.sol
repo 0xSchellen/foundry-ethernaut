@@ -6,7 +6,7 @@ import "./utils/BaseTest.sol";
 import "src/levels/Fallback.sol";
 import "src/levels/FallbackFactory.sol";
 
-contract TestFallback is BaseTest {
+contract TestFallback is Test {
     Fallback private level;
 
     constructor() public {
